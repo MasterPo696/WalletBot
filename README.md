@@ -1,30 +1,47 @@
-# Telegram Wallet Bot
+# 🤖 Telegram Wallet Bot
 
-## Project Overview
+A sophisticated Telegram bot for managing cryptocurrency wallets and balances, supporting TON and TRC20 networks. Built with Python and aiogram framework.
 
-A Telegram bot for managing cryptocurrency wallets and balances. Key features include wallet binding (TON, TRC20), balance tracking, deposits, withdrawals, and interaction via Telegram commands.
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
----
+## 🌟 Features
 
-## Features
+### 💼 Wallet Management
+- Secure wallet binding for TON and TRC20 networks
+- Advanced address validation with regex patterns
+- Multi-wallet support per user
+- Automated wallet ownership verification
 
-1. **Wallet Management:**
-   - Bind wallets for TON and TRC20 networks.
-   - Validate TON wallet addresses with regex.
+### 💰 Balance Operations
+- Real-time USDT balance tracking
+- Secure deposit and withdrawal system
+- Transaction verification with blockchain APIs
+- Support for both TON and TRON USDT transfers
 
-2. **Balance Operations:**
-   - Create, update, deposit, or withdraw USDT balances.
-   - Fetch the current balance.
+### 🔐 Security
+- Robust transaction validation
+- Secure state management
+- Rate limiting and spam protection
+- Automated verification processes
 
-3. **Logging and Animations:**
-   - Logs wallet and balance activities.
-   - Displays state changes with stickers.
+### 📊 Additional Features
+- Real-time logging system
+- Interactive sticker animations
+- CEX deposit support
+- Multi-currency conversion
 
----
+## 🚀 Quick Start
 
-## Installation and Setup
+### Prerequisites
+- Python 3.10 or higher
+- SQLite3
+- Telegram Bot Token
+- TON/TRON API Keys
 
-1. **Clone the Repository:**
+### Installation
+
+1. **Clone the Repository**
    ```bash
    git clone <REPO_URL>
    cd <PROJECT_NAME>
@@ -87,7 +104,3 @@ A Telegram bot for managing cryptocurrency wallets and balances. Key features in
 - `database.py`: Handles database interactions (wallets, balances).
 - `bot.py`: Main bot logic.
 - `requirements.txt`: Dependency list.
-
----
-
-Let me know if additional details are needed!

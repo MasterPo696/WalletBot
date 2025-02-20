@@ -1,0 +1,9 @@
+dotenv
+aiogram
+asyncio
+random
+requests
+sqlite3
+logging
+datetime
+dotenv
